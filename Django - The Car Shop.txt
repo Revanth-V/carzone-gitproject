@@ -1,0 +1,32 @@
+Need to set up the virtual environment:
+Because it is considered best practice and we do not want the packages set up in the global workspace. We want separate packages for our project.
+
+Command: pip freeze
+Displays the packages installed in the global level/scope.
+
+Command: virtualenv --version
+Displays the latest version of python virtualenv package
+
+Command: python -m venv env
+Creates a virtual environment named 'env' in the directory you are running this command from
+
+Command: source env/Scripts/activate
+Activates the virtual environment 'env'
+
+Command: deactivate
+Deactivates the virtual environment
+
+Command: pip install django
+Installs django
+
+Command: django-admin startproject carzone .
+Starts a django project with name 'carzone'; The '.' at the end is necessary to keep all the files in a single folder
+
+Command: python manage.py runserver
+Starts up a development server for this specific Django project
+
+Command: python manage.py startapp pages
+Creates an app called pages
+
+Whenever an app is created, make sure to add it to the INSTALLED_APPS of settings.py
+
