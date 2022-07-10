@@ -30,3 +30,8 @@ Creates an app called pages
 
 Whenever an app is created, make sure to add it to the INSTALLED_APPS of settings.py
 
+Command: Ctrl + l
+This clears the command history in Git Bash
+
+All the files, folders, directories mentioned in the gitignore file won't be pushed to your github repo
+
